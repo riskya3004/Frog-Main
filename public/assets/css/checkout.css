@@ -1,0 +1,2106 @@
+
+.all-content{
+    /* background-color: blue; */
+    height: fit-content;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    left: 0px;
+}
+
+.checkout-box{
+    /* background-color: red; */
+    position: relative;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 800px;
+}
+
+.checkout-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    color: #522E93;
+    font-weight: bold;
+}
+
+.checkout-linebar{
+    background-color: #522E93;
+    color: #522E93;
+    border-width: 1px;
+    height: 2px;
+    top: 2px;
+    margin-top: 4px;
+    width: 790px;
+    margin-bottom: 15px;
+}
+
+
+.title-shipping-address{
+    position: relative;
+    display: flex;
+    gap: 4px;
+    color: #522E93;
+}
+
+
+.location-icon {
+    width: 50;
+}
+
+.shipping-address{
+    margin-top: 0px;
+    align-items: flex-start;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    font-weight:500;
+}
+
+
+.box-address{
+    background-color: #CDCDCD;
+    background-color: #522E93;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #CDCDCD;
+    color: #FFFFFF;
+
+    width: 790px;
+    height: 115px;
+    margin-top: 8px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    padding-right: 25px;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+.rincian-data{
+    position: relative;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
+.nama{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'poppins';
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+}
+
+.nomor-telepon{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'poppins';
+    font-size: 14px;
+    color: white;
+    padding-bottom: 6px;
+}
+
+.alamat{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'poppins';
+    font-size: 14px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.change-address{
+    width: 190px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-change-address{
+    width: 190px;
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+    /* border: 3px solid #522E93; */
+    border: none;
+    /* border-radius: 25px; */
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: #CDCDCD;
+    background-color: white;
+
+    transition: .2s all ease-in-out;
+    float: right;
+}
+
+.box-change-address:hover{
+    transform: scale(1.04);
+}
+
+.pen-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.title-shipping-address{
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.title-ordered-product{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.ordered-icon{
+    width: 50;
+}
+
+.ordered-product{
+    margin-top: 0px;
+    align-items: flex-start;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    font-weight:500;
+    /* margin-bottom: 15px; */
+}
+
+.product-box{
+    /* border: 1px solid blue; */
+    /* padding-top: 15px; */
+    padding-bottom: 18px;
+    /* margin-bottom: 15px; */
+}
+
+.title-event{
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-size: 18px; */
+    color: #522E93;
+    /* font-weight: 700; */
+    margin-left: 12px;
+    margin-bottom: 3px;
+
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.event-linebar{
+    background-color: #522E93;
+    border-width: 1px;
+    height: 2px;
+    top: 0px;
+    margin-top: 7px;
+    width: 778px;
+    margin-left: 12px;
+    margin-bottom: 8px;
+}
+
+.product-detail-box{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    padding-top: 1px;
+    margin-bottom: 12px;
+}
+
+.gambar-produk {
+    margin-left: 15px;
+    width: 150px;
+    height: 100px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 10px;
+}
+
+.detail{
+    width: 420px;
+    height: 80px;
+    padding-top: 0px;
+}
+
+
+.title-product{
+    /* font-family: 'M PLUS 1'; */
+    font-family: 'Poppins';
+    /* font-size: 18px; */
+    color: #522E93;
+    font-weight: bolder;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.quantity{
+    /* font-family: 'M PLUS 1'; */
+    /* font-family: 'Poppins'; */
+    /* font-size: 16px; */
+    color: black;
+    /* font-weight: 400; */
+    margin-left: 3px;
+    margin-bottom: 3px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.span-quantity{
+    /* font-family: 'M PLUS 1'; */
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.harga{
+    margin-left: 30px;
+    /* border: 1px solid black; */
+    width: 250px;
+    height: 80px;
+    padding-top: 8px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.title-harga{
+    align-items: center;
+    text-align: center;
+    /* font-size: 18px; */
+    /* font-weight: 600; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    color: black;
+
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.option-shipping-box{
+    position: relative;
+    display: flex;
+    gap: 4px;
+    padding-top: 15px;
+}
+
+.title-option-shipping{
+    position: relative;
+    display: flex;
+    gap: 4px;
+}
+
+.shipping-icon{
+    width: 50;
+}
+
+.shipping-option-title{
+    margin-top: 0px;
+    align-items: flex-start;
+    /* font-family: 'Ubuntu', sans-serif;
+    font-size: 22px; */
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    font-weight:500;
+}
+
+.grid-box{
+    width: 750px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.box-1{
+    width: 180px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 0px;
+
+    /* border: 1.5px solid #CDCDCD;
+    box-shadow: 4px 4px 0px #CDCDCD; */
+
+    text-decoration: none;
+    background-color:#FFFFFF;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 1.5px solid #CDCDCD;
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 10px;
+}
+
+.box-1:hover{
+    border: 1px solid #673AB7;
+    box-shadow: 2px 2px 8px #673AB7;
+
+    transform: scale(1.05);
+
+    transition: 0.3s;
+}
+
+
+button.boxbtn{
+    border: 1px solid #673AB7;
+    box-shadow: 2px 2px 8px #673AB7;
+
+    transform: scale(1.05);
+}
+
+button.boxbtn2{
+    border: 1px solid #673AB7;
+    box-shadow: 2px 2px 8px #673AB7;
+    transform: scale(1.05);
+}
+
+.box-2 {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 0px;
+    /* border: 1.5px solid #CDCDCD;
+    box-shadow: 2px 2px 8px #CDCDCD; */
+
+    text-decoration: none;
+    background-color:#FFFFFF;
+
+    border: 1.5px solid #CDCDCD;
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 10px;
+/*
+    width: 150px;
+    height: 130px; */
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-2:hover{
+    border: 1px solid #673AB7;
+    box-shadow: 2px 2px 8px #673AB7;
+
+    transform: scale(1.05);
+
+    transition: 0.3s;
+}
+
+
+
+.gambar-jne{
+    width: 139px;
+    height: 99px;
+    margin-left: 5px;
+    margin-top: 0px;
+
+    position: relative;
+    justify-content: center;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding-bottom: 100px; */
+}
+
+.gambar-pos{
+    margin-top: 0px;
+    margin-left: -4px;
+    width: 174px;
+    height: 64px;
+
+    position: relative;
+    justify-content: center;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gambar-jnt{
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 70px;
+    height: 70px;
+
+    position: relative;
+    justify-content: center;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gambar-tiki{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 149px;
+    height: 30px;
+
+    position: relative;
+    justify-content: center;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.option-payment-box{
+    position: relative;
+    display: flex;
+    gap: 4px;
+    padding-top: 15px;
+}
+
+.title-option-payment{
+    position: relative;
+    display: flex;
+    gap: 4px;
+
+}
+
+.payment-icon{
+    width: 50;
+}
+
+.payment-option-title{
+    margin-top: 0px;
+    align-items: flex-start;
+    /* font-family: 'Ubuntu', sans-serif;
+    font-size: 22px; */
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    font-weight:500;
+}
+
+.gambar-bca{
+    width: 137px;
+    height: 102px;
+    margin-top: -5px;
+    margin-left: 0px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gambar-gopay {
+    margin-left: 0px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.gambar-dana{
+    margin-top: 0px;
+    margin-left: 0px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.gambar-spay{
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 93px;
+    height: 41px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.summary-checkout{
+    position: fixed;
+    border: 2px solid red;
+    width: 365px;
+    /* height: 310px; */
+    align-items: baseline;
+    margin-top: 100px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 0px 0px #522E93;
+    border: 2px solid #522E93;
+    display: block;
+    margin-left: 870px;
+    margin-top: 20px;
+
+    box-shadow: 4px 4px 8px #522E93;
+    border-radius: 20px;
+
+}
+
+.box-summary {
+    margin-left: 10px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+
+}
+
+.title-checkout-summary{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #522E93;
+}
+
+.checkout-summary-linebar{
+    background-color: #522E93;
+    /* color: #522E93; */
+    border-width: 1px;
+    height: 2px;
+    top: 0px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    width: 320px;
+    margin-left: -3px;
+}
+
+.subtotal{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    gap: 10px;
+    margin-bottom: 10px;
+    /* margin-left: ; */
+
+}
+
+.nominal{
+    margin-left: 15px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.shipping-subtotal{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.shipping-nominal{
+    margin-left: 25px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.rp-1{
+    /* margin-left: 90px; */
+    /* right: 0; */
+    float: right;
+    padding-right: 12px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.rp-2{
+    /* margin-left: 100px; */
+    float: right;
+    padding-right: 12px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 2px;
+}
+
+.total-payment{
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: #522E93;
+    margin-bottom: 25px;
+}
+
+.rp-3{
+    /* margin-left: 97px; */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 2px;
+    float: right;
+    padding-right: 12px;
+}
+
+.total-nominal{
+    margin-left: 17px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #522E93;
+
+}
+
+.pay-button{
+    margin-left: 60px;
+    width: 220px;
+    height: 51px;
+    background: #522E93;
+    border: 1px solid #522E93;
+    /* box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 25px; */
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 35px;
+
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 20px;
+
+    transition: .2s all ease-in-out;
+}
+
+.pay-button:hover{
+    transform: scale(1.04);
+}
+
+.pay-button:hover{
+    margin-left: 60px;
+    width: 220px;
+    height: 51px;
+    background: #673AB7;
+    border: 1px solid #673AB7;
+    /* box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 25px; */
+    padding-top: 10px;
+
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 20px;
+}
+
+.pay-now-title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -11px;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
+
+.view-box-change-address{
+    border: 1px solid black;
+    width: 700px;
+    height: auto;
+
+    margin-left: 280px;
+
+    background-color: #FFFFFF;
+
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+
+    padding-left: 20px;
+    padding-top: 20px;
+    /* padding-top: 50px; */
+
+    background: #FFFFFF;
+    border: 3px solid #522E93;
+
+    border-radius: 10px;
+
+    margin-top: 50px;
+
+}
+
+.current-address-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.box-address-change{
+    background-color: #CDCDCD;
+    /* background-color: white; */
+    width: 650px;
+    height: 90px;
+    margin-top: 8px;
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+.rincian-data-change{
+    position: relative;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
+.nama-change{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 6px;
+}
+
+.nomor-telepon-change{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: black;
+    padding-bottom: 6px;
+}
+
+.alamat-change{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.name-container{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+
+    /* border: 1px solid #764EBE;
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 10px; */
+}
+
+.first-name-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.first-name-box  {
+    width: 313px;
+    height: 34px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    /* border: 1px solid #764EBE; */
+    /* box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    text-decoration: none;
+    padding-left: 12px;
+    margin-left: 0px;
+
+    border: 1px solid #764EBE;
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 10px;
+
+}
+
+.last-name-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 7px;
+
+    border: 1px solid #764EBE;
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 10px;
+}
+
+.last-name-box{
+    width: 313px;
+    height: 34px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #764EBE;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    padding-left: 12px;
+    margin-left: 0px;
+}
+
+input{
+
+    text-decoration: none;
+    outline: none;
+
+
+
+}
+
+.input-container input{
+    border-radius: 10px;
+}
+
+.first-name input{
+    border-radius: 10px;
+}
+
+.new-address textarea{
+    border-radius: 10px;
+}
+
+input::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #636363;
+}
+
+.phone-number-title{
+    margin-top: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.phone-number-box{
+    width: 313px;
+    height: 34px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #764EBE;
+    /* box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    text-decoration: none;
+    padding-left: 52px;
+    margin-left: 0px;
+    /* margin-bottom: 10px; */
+    padding-top: 4px;
+
+    /* border: 1px solid #764EBE; */
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 10px;
+}
+
+.new-address-title{
+    margin-top: 15px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.new-address{
+    /* margin-top: 40px; */
+}
+
+.new-address-box{
+    width: 650px;
+    height: 100px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #764EBE;
+    /* box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    text-decoration: none;
+    padding-left: 12px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    padding-top: 10px;
+
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 10px;
+}
+
+
+.save-button-box{
+    background: #522E93;
+    /* border: 1px solid #673AB7; */
+    /* box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 25px; */
+    width: 166px;
+    height: 38px;
+    box-sizing: border-box;
+    margin-left: -2px;
+    color: #FFFFFF;
+
+    border: 1px solid #673AB7;
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 20px;
+}
+
+.button-grid{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.back-button{
+    background: #FFFFFF;
+    border: 1px solid #673AB7;
+    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    width: 166px;
+    height: 38px;
+    box-sizing: border-box;
+    margin-left: -2px;
+    color: #673AB7;
+    font-weight: bolder;
+
+}
+
+.gabung-box{
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.modal-css{
+    background-color: red;
+    border: 5px solid blue;
+    width: 700px;
+    height: 570px;
+    display: contents;
+}
+
+.form-css{
+    margin-left: -400px;
+}
+
+.modal-header{
+    outline: none;
+    border: none;
+    display: none;
+    background: none;
+}
+
+
+
+.captcha {
+    display: inline-block;
+    padding: 0.2em;
+    background-color: white;
+    border: 1px solid #A9A9A9;
+  }
+
+.placeholder {
+color: #A9A9A9;
+}
+
+.phonecss {
+    border: 1px solid red;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width : 30px;
+    height: 25px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input{
+    padding: 5px;
+}
+
+
+.fnameval{
+    margin-top: 5px;
+}
+
+.lnameval{
+    margin-top: 5px;
+}
+
+.numval{
+    /* margin-top: 8px; */
+    /* margin-bottom: 5px; */
+    /* border: 1px solid red; */
+}
+
+
+.addressval{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.plus{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+textarea{
+    font-family: 'ubuntu';
+}
+
+
+.flex-num-plus{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 40px; */
+}
+
+/* .input-container{
+    position: absolute;
+    z-index: 1;
+} */
+
+.plus{
+    position: absolute;
+    z-index: 2;
+    /* border: 1px solid red; */
+    margin-top: 7.5px;
+}
+
+/* .form-control{
+    border-radius: 10px;
+} */
+
+
+
+.cancel-btn{
+    background: #FFFFFF;
+    /* border: 1px solid #522E93; */
+    /* box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 25px; */
+    width: 110px;
+    height: 38px;
+    box-sizing: border-box;
+    margin-left:  8px;
+    color: #522E93;
+    font-weight: bold;
+    /* margin-top: -5px; */
+
+    border: 1px solid #673AB7;
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 20px;
+}
+
+.cancel-btn:hover{
+    background-color: #ffffff;
+    color: #522E93;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+
+
+
+.save-button{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.summary-checkout-responsive{
+    /* display: block; */
+    display: none;
+    width: 365px;
+    height: 310px;
+    align-items: baseline;
+    background: #FFFFFF;
+    border: 2px solid #522E93;
+    box-shadow: 4px 4px 8px #522E93;
+    border-radius: 20px;
+    /* position: fixed; */
+    /* border: 2px solid red; */
+    /* margin-top: 100px; */
+    /* box-sizing: border-box; */
+    /* margin-left: 870px; */
+    /* margin-top: 20px; */
+
+
+}
+
+.box-summary-responsive {
+    margin-left: 10px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+
+}
+
+.title-checkout-summary-responsive{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #522E93;
+}
+
+.checkout-summary-linebar-responsive{
+    background-color: #522E93;
+    /* color: #522E93; */
+    border-width: 1px;
+    height: 2px;
+    top: 0px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    width: 320px;
+    margin-left: -3px;
+}
+
+.subtotal-responsive{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    gap: 10px;
+    margin-bottom: 10px;
+    /* margin-left: ; */
+
+}
+
+.shipping-subtotal-responsive{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.total-payment-responsive{
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: #522E93;
+    margin-bottom: 25px;
+}
+
+.pay-button-responsive{
+    margin-left: 60px;
+    width: 220px;
+    height: 51px;
+    background: #522E93;
+    border: 1px solid #522E93;
+    /* box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 25px; */
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 35px;
+
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 20px;
+
+    transition: .2s all ease-in-out;
+}
+
+.pay-button-responsive:hover{
+    transform: scale(1.04);
+}
+
+.pay-button-responsive:hover{
+    margin-left: 60px;
+    width: 220px;
+    height: 51px;
+    background: #673AB7;
+    border: 1px solid #673AB7;
+    /* box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 25px; */
+    padding-top: 10px;
+
+    box-shadow: 4px 4px 8px #CDCDCD;
+    border-radius: 20px;
+}
+
+.pay-now-title-responsive{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -11px;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
+/* Responsive Website */
+
+/* Ukuran Mobile */
+@media screen and (max-width: 428px){
+    .all-content{
+        /* background-color: blue; */
+        height: fit-content;
+    }
+    
+
+    .container{
+        position: relative;
+        display: flex;
+        left: 0px;
+
+        /* background-color: red; */
+    }
+
+    .checkout-box{
+        position: relative;
+        margin-left: 2%;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 96%;
+
+        /* background-color: red; */
+        /* border: 1px solid red; */
+    }
+
+    .checkout-title{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 22px;
+        color: #522E93;
+        font-weight: bold;
+    }
+
+    .checkout-linebar{
+        background-color: #522E93;
+        color: #522E93;
+        border-width: 1px;
+        height: 1px;
+        top: 2px;
+        margin-top: 4px;
+        width: 410px;
+        margin-bottom: 15px;
+    }
+
+
+    .title-shipping-address{
+        position: relative;
+        display: flex;
+        gap: 4px;
+        color: #522E93;
+    }
+
+
+    .location-icon {
+        width: 5%;
+    }
+
+    .shipping-address{
+        margin-top: 0px;
+        align-items: flex-start;
+        /* font-family: 'Ubuntu', sans-serif; */
+        font-family: 'Poppins';
+        font-size: 18px;
+        color: black;
+        font-weight:500;
+    }
+
+
+    .box-address{
+        background-color: #CDCDCD;
+        width: 100%;
+        height: 115px;
+        margin-top: 8px;
+        position: relative;
+        display: flex;
+        margin-bottom: 20px;
+        padding-right: 10px;
+    }
+
+
+
+    .nama{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;
+        color: black;
+        font-weight: bolder;
+        padding-bottom: 6px;
+    }
+
+    .nomor-telepon{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;
+        color: black;
+        padding-bottom: 6px;
+    }
+
+    .alamat{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 12px;
+        color: black;
+        padding-bottom: 10px;
+    }
+
+    .change-address{
+        width: 150px;
+        height: 80px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        padding-top: 30px;
+        /* background-color: red; */
+    }
+
+    .box-change-address{
+        width: 180px;
+        height: 54px;
+        display: flex;
+        box-sizing: border-box;
+        border: 3px solid #522E93;
+        /* border-radius: 25px; */
+        border-radius: 20px;
+        align-items: center;
+        align-content: center;
+        padding-left: 5px;
+        background-color: #CDCDCD;
+
+        transition: .2s all ease-in-out;
+    }
+
+    .title-shipping-address{
+        position: relative;
+        display: flex;
+        gap: 4px;
+        color: #522E93;
+
+        /* background-color: red; */
+        font-size: 14px;
+        margin-left: 6px;
+    }
+
+
+    .shipping-address{
+        margin-top: 0px;
+        align-items: flex-start;
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: black;
+        font-weight:500;
+    }
+
+
+    .pen-icon {
+        display: none;
+        width: 20px;
+        height: 20px;
+    }
+
+    .title-ordered-product{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        display: flex;
+
+    }
+
+    .ordered-icon{
+        width: 5%;
+    }
+
+    .ordered-product{
+        /* display: none; */
+
+        margin-top: 0px;
+        align-items: flex-start;
+        /* font-family: 'Ubuntu', sans-serif; */
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: black;
+        font-weight:500;
+        margin-left: 4px;
+    }
+
+    .product-box{
+        /* border: 1px solid blue; */
+        /* padding-top: 10px; */
+    }
+
+    .event-linebar{
+        background-color: #522E93;
+        border-width: 1px;
+        height: 2px;
+        top: 0px;
+        margin-top: 0px;
+        width: 395px;
+        margin-left: 12px;
+        margin-bottom: 15px;
+    }
+
+    .product-detail-box{
+        position: relative;
+        display: flex;
+        gap: 10px;
+        padding-top: 1px;
+        /* margin-bottom: 18px; */
+
+        /* border: 1px solid red; */
+    }
+
+    .gambar-produk {
+        margin-left: 15px;
+        width: 170px;
+        height: 70px;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        box-shadow: 4px 4px 8px #CDCDCD;
+        border-radius: 10px;
+    }
+
+    .detail{
+        width: 420px;
+        height: 80px;
+        padding-top: 0px;
+
+        /* background-color: red; */
+    }
+
+    .title-product{
+        /* font-family: 'M PLUS 1'; */
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: #522E93;
+        font-weight: bolder;
+        margin-left: 3px;
+        margin-bottom: 5px;
+    }
+
+    .quantity{
+        /* font-family: 'M PLUS 1'; */
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: black;
+        font-weight: 400;
+        margin-left: 3px;
+        margin-bottom: 3px;
+    }
+
+    .span-quantity{
+        /* font-family: 'M PLUS 1'; */
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: black;
+        font-weight:bolder;
+        margin-left: 3px;
+        margin-bottom: 3px;
+    }
+
+    .harga{
+        margin-left: 30px;
+        /* border: 1px solid black; */
+        width: 250px;
+        height: 80px;
+        padding-top: 8px;
+        position: relative;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .title-harga{
+        align-items: center;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Ubuntu', sans-serif;
+        color: black;
+    }
+    .title-event{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;
+        color: #522E93;
+        font-weight: 700;
+        margin-left: 12px;
+        margin-bottom: 3px;
+    }
+
+    .option-shipping-box{
+        position: relative;
+        display: flex;
+        gap: 4px;
+        padding-top: 15px;
+    }
+
+    .title-option-shipping{
+        position: relative;
+        display: flex;
+        gap: 4px;
+    }
+
+    .shipping-icon{
+        width: 15%;
+    }
+
+    .shipping-option-title{
+        margin-top: 0px;
+        align-items: flex-start;
+        /* font-family: 'Ubuntu', sans-serif;
+        font-size: 22px; */
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: black;
+        font-weight:500;
+    }
+
+    .grid-box{
+        display: none;
+
+        width: 750px;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        display: flex;
+        gap: 12px;
+
+        /* background-color: red; */
+    }
+
+    .box-1{
+        display: none;
+
+        width: 12.3%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 0px;
+
+        /* border: 1.5px solid #CDCDCD;
+        box-shadow: 4px 4px 0px #CDCDCD; */
+
+        text-decoration: none;
+        background-color:#FFFFFF;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        border: 1.5px solid #CDCDCD;
+        box-shadow: 4px 4px 8px #CDCDCD;
+        border-radius: 10px;
+    }
+
+    .gambar-jne{
+        width: 80px;
+        height: 60px;
+        margin-left: 5px;
+        margin-top: 0px;
+
+        position: relative;
+        justify-content: center;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* padding-bottom: 100px; */
+    }
+
+    .gambar-pos{
+        margin-top: 0px;
+        margin-left: -4px;
+        width: 160px;
+        height: 50px;
+
+        position: relative;
+        justify-content: center;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .gambar-jnt{
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 50px;
+        height: 50px;
+
+        position: relative;
+        justify-content: center;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .gambar-tiki{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 130px;
+        height: 15px;
+
+        position: relative;
+        justify-content: center;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .option-payment-box{
+        position: relative;
+        display: flex;
+        gap: 4px;
+        padding-top: 15px;
+    }
+
+    .title-option-payment{
+        position: relative;
+        display: flex;
+        gap: 4px;
+
+    }
+
+    .payment-icon{
+        width: 10%;
+    }
+
+    .payment-option-title{
+        margin-top: 0px;
+        align-items: flex-start;
+        /* font-family: 'Ubuntu', sans-serif;
+        font-size: 22px; */
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: black;
+        font-weight:500;
+    }
+
+    .gambar-bca{
+        width: 80px;
+        height: 55px;
+        margin-top: -5px;
+        margin-left: 0px;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        border-radius: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .gambar-gopay {
+        margin-left: 0px;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        width: 110px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+
+    .gambar-dana{
+        margin-top: 0px;
+        margin-left: 0px;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        width: 100px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+
+    .gambar-spay{
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        width: 70px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+
+    .box-2 {
+        display: none;
+
+        width: 12.3%;
+        height: 90%;
+        /* width: 250px;
+        height: 100px; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 0px;
+        /* border: 1.5px solid #CDCDCD;
+        box-shadow: 4px 4px 0px #CDCDCD; */
+
+        text-decoration: none;
+        background-color:#FFFFFF;
+
+        border: 1.5px solid #CDCDCD;
+        box-shadow: 4px 4px 8px #CDCDCD;
+        border-radius: 10px;
+    /*
+        width: 150px;
+        height: 130px; */
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .view-box-change-address{
+
+        border: 1px solid black;
+        width: 400px;
+        height: auto;
+
+        margin-left: 404px;
+
+        background-color: #FFFFFF;
+        /* background-color: red; */
+
+        position: relative;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 30px;
+
+        padding-left: 20px;
+        padding-top: 20px;
+        /* padding-top: 50px; */
+
+        /* background: #FFFFFF; */
+        border: 3px solid #522E93;
+
+        border-radius: 10px;
+
+        margin-top: 90px;
+
+    }
+
+    .current-address-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .new-address textarea{
+        /* display: none; */
+        width: 313px;
+        border-radius: 10px;
+    }
+
+
+
+    /* .box-summary {
+        margin-left: 10px;
+        margin-top: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    } */
+
+    .gabung-box{
+        /* background-color: blue; */
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* gap: 20px; */
+    }
+
+    .summary-checkout{
+        /* position: fixed; */
+        display: block;
+        border: 2px solid red;
+        width: 365px;
+        /* height: 310px; */
+        /* align-items: baseline; */
+        /* margin-top: 100px; */
+        box-sizing: border-box;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 0px 0px #522E93;
+        border: 2px solid #522E93;
+        /* margin-left: 870px; */
+        /* margin-top: 20px; */
+    
+        box-shadow: 4px 4px 8px #522E93;
+        border-radius: 20px;
+    
+    }
+    
+    .box-summary {
+        margin-left: 10px;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 15px;
+    
+    
+    }
+
+    .title-checkout-summary{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: #522E93;
+    }
+
+
+    /* Coba cara keren */
+
+    .summary-checkout-responsive{
+        display: block;
+        margin-left: 30px;
+        margin-top: -40px;
+        margin-bottom: 30px;
+        width: 365px;
+        height: 270px;
+        align-items: baseline;
+        background: #FFFFFF;
+        border: 2px solid #522E93;
+        box-shadow: 4px 4px 8px #522E93;
+        border-radius: 20px;
+        /* position: fixed; */
+        /* border: 2px solid red; */
+        /* margin-top: 100px; */
+        /* box-sizing: border-box; */
+        /* margin-left: 870px; */
+        /* margin-top: 20px; */
+    
+    
+    }
+    
+    .box-summary-responsive {
+        margin-left: 10px;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 15px;
+    
+    
+    }
+    
+    .title-checkout-summary-responsive{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: #522E93;
+    }
+    
+    .checkout-summary-linebar-responsive{
+        background-color: #522E93;
+        /* color: #522E93; */
+        border-width: 1px;
+        height: 2px;
+        top: 0px;
+        margin-top: 6px;
+        margin-bottom: 15px;
+        width: 320px;
+        margin-left: -3px;
+    }
+    
+    .subtotal-responsive{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        gap: 10px;
+        margin-bottom: 10px;
+        /* margin-left: ; */
+    
+    }
+    
+    .shipping-subtotal-responsive{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .total-payment-responsive{
+        font-family: 'Ubuntu';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        color: #522E93;
+        margin-bottom: 25px;
+    }
+    
+    .pay-button-responsive{
+        margin-left: 60px;
+        width: 220px;
+        height: 51px;
+        background: #522E93;
+        border: 1px solid #522E93;
+        /* box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.25); */
+        /* border-radius: 25px; */
+        padding-top: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 35px;
+    
+        box-shadow: 4px 4px 8px #CDCDCD;
+        border-radius: 20px;
+    
+        transition: .2s all ease-in-out;
+    }
+    
+    .pay-button-responsive:hover{
+        transform: scale(1.04);
+    }
+    
+    .pay-button-responsive:hover{
+        margin-left: 60px;
+        width: 220px;
+        height: 51px;
+        background: #673AB7;
+        border: 1px solid #673AB7;
+        /* box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.25); */
+        /* border-radius: 25px; */
+        padding-top: 10px;
+    
+        box-shadow: 4px 4px 8px #CDCDCD;
+        border-radius: 20px;
+    }
+    
+    .pay-now-title-responsive{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: -11px;
+    
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    
+    }
+
+    /* .boxbtn{
+        border: 1px solid #673AB7;
+        box-shadow: 2px 2px 8px #673AB7;
+    
+        transform: scale(1.05);
+    } */
+    
+}

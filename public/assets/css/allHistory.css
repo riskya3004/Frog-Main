@@ -1,0 +1,28 @@
+.container{
+    /* border: solid 1px; */
+    margin-left: 21px;
+    margin-top: 21px;
+    margin-bottom: 84px;
+}
+
+.flex-container{
+    width: 95vw;
+    gap: 21px;
+}
+
+.container h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 42px;
+
+    margin-left: 60px;
+}
+
+.gap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 300px;
+}

@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 85vw;
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+    margin-left: 60px;
+    margin-right: 30px;
+    gap: 3vw;
+    /* width: fit-content; */
+}
+
+.container h3{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.card-container{
+    /* border: 1px solid blue; */
+    width: 95vw;
+    gap: 0.2vw;
+    /* border: 1px solid black; */
+    padding-left: 25px;
+}
+
+.card-test{
+    /* border: 1px solid red; */
+    margin-bottom: 1vw;
+
+    margin-left: 14px;
+}
+
+
+/* Responsive Website */
+
+/* Ukuran Mobile */
+@media screen and (max-width: 428px){
+    .container h3{
+        font-size: 24px;
+        margin-left: -20px;
+    }
+
+    .card-container{
+        /* border: 1px solid blue; */
+        width: 95vw;
+        gap: 0.2vw;
+        margin-left: -30px;
+        /* border: 1px solid black; */
+        /* padding-left: 25px; */
+    }
+
+}

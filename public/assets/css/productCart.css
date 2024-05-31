@@ -1,0 +1,227 @@
+.productCartPage{
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.productCartPage a.custom-card {
+    height: fit-content;
+    /* width: 215px; */
+    /* width: 180px; */
+}
+
+.productCartPage a.custom-card,
+.productCartPage a.custom-card:hover {
+    color: inherit;
+    text-decoration-line: none;
+}
+
+.productCartPage a.custom-card:hover {
+    color: #673AB7;
+}
+
+.productCartPage .card {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    position: relative;
+    /* width: 215px; */
+    width: 187px;
+    /* height: 203px; */
+    /* height: 241px; */
+    height: 227px;
+    /* height: 227px; */
+    background: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    box-shadow: 4px 4px 8px #CDCDCD;
+    /* margin: 10.5px; */
+    /* margin-bottom: 20px;
+    margin-right: 20px; */
+    /* background-color: pink; */
+    /* background-color: yellow; */
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.04);
+}
+
+.productCartPage .card-img {
+    /* width: 214px; */
+    width: 100%;
+    height: 165px;
+    height: 145px;
+    border-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: yellow; */
+}
+
+.productCartPage .caption {
+    padding: 5px;
+    /* background-color: pink; */
+    /* height: 150px; */
+    /* font-family: 'M PLUS 1'; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 8px 13px;
+    padding-left: 15px;
+}
+
+.productCartPage .caption:hover {
+    text-decoration-color: #673AB7;
+}
+
+.caption .namaProduk {
+    /* font-family: 'M PLUS 1'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.caption .namaEvent {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    /* text-decoration-line: underline; */
+    text-decoration-line: none;
+    color: #673AB7;
+    margin-bottom: 3px;
+    /* background-color: yellow; */
+}
+
+.caption .hargaProduk {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #522E93;
+}
+
+.caption .stokProduk {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 10px;
+    line-height: 13px;
+    display: flex;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 2px;
+}
+
+
+/* Responsive Website */
+
+/* Ukuran Mobile */
+@media screen and (max-width: 428px){
+
+    .productCartPage{
+        /* background-color: red; */
+        padding-left: 5px;
+        /* padding-right: 12px; */
+        /* margin-right: 10px; */
+        margin-right: 10px;
+        /* margin-left: 15px; */
+        margin-bottom: 30px;
+    }
+
+    .productCartPage .card {
+        font-family: 'Poppins';
+        position: relative;
+        width: 150px;
+        /* width: 170px; */
+        height: 200px;
+        background: #FFFFFF;
+        border: 1px solid #CDCDCD;
+        box-shadow: 4px 4px 8px #CDCDCD;
+        border-radius: 10px;
+        
+        margin-left: 15px;
+    }
+    
+    .productCartPage .card-img {
+        width: 100%;
+        height: 120px;
+        /* height: 145px; */
+        border-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .productCartPage .caption {
+        /* background-color: red; */
+        padding: 5px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        padding: 8px 13px;
+        padding-left: 15px;
+    }
+    
+    .productCartPage .caption:hover {
+        text-decoration-color: #673AB7;
+    }
+    
+    .caption .namaProduk {
+        /* font-family: 'M PLUS 1'; */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+    }
+    
+    .caption .namaEvent {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        display: flex;
+        align-items: flex-end;
+        /* text-decoration-line: underline; */
+        text-decoration-line: none;
+        color: #673AB7;
+        margin-bottom: 3px;
+        /* background-color: yellow; */
+    }
+    
+    .caption .hargaProduk {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 20px;
+        color: #522E93;
+    }
+    
+    .caption .stokProduk {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-size: 10px;
+        line-height: 13px;
+        display: flex;
+        align-items: flex-end;
+        color: rgba(0, 0, 0, 0.7);
+        margin-top: 2px;
+    }
+}
+
